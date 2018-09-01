@@ -1,0 +1,32 @@
+{
+    "name": "daxslab/yii2-mobirisegallery-widget",
+    "description": "Yii2 widget for mobirise gallery",
+    "keywords": ["yii2", "i18n", "locale"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel A. López López",
+            "email": "glpz@daxslab.com"
+        },
+        {
+            "name": "Carlos Cesar Caballero Díaz",
+            "email": "ccesar@daxslab.com"
+        }
+    ],
+    "require": {
+      "yiisoft/yii2": "*",
+      "daxslab/yii2-mobirise-assets": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "daxslab\\mobirisegallery\\": ""
+        }
+    }
+}  
